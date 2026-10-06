@@ -98,6 +98,9 @@ Ticket description:
 Relevant CultPass knowledge:
 {top_articles}
 
+Previous customer interactions:
+{state.get('long_term_memory', [])}
+
 Support tool results:
 {tool_results}
 
